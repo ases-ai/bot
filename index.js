@@ -7,7 +7,7 @@ const botPassword = 'fazliddinov';
 const admin = 'lavash_city';
 var playerList = [];
 var mcData;
-
+bot.chat(/register ${fazliddinov} ${fazliddinov});
 const botOption = {
     host: 'hypixel.uz',
     port: 25565,
