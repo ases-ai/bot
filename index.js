@@ -15,7 +15,17 @@ const botOption = {
     password: botPassword,
     version: '1.18.1',
 };
+bot.on('messagestr', (message) => {
+  if(message.includes("/register"))
+  {
+    bot.chat("/reg fazliddinov fazliddinov")
+  }
+  
 
+}
+
+
+)
 init();
 
 function init() {
